@@ -26,7 +26,6 @@ public class CarsService {
 
         return carsDTOs;
     }
-
     private CarsDTO convertCarToDTO(Cars car) {
         CarsDTO carsDTO = new CarsDTO();
         carsDTO.setName(car.getName());
